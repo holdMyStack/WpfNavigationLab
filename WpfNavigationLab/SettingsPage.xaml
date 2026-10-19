@@ -1,0 +1,30 @@
+﻿<Page x:Class="WpfNavigationLab.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#F8FAFC">
+
+    <Grid Margin="40">
+
+        <StackPanel>
+
+            <TextBlock Text="Beállítások"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       Foreground="#1E293B"/>
+
+            <TextBlock Text="Beállítások aloldal tartalma."
+                       FontSize="16"
+                       Foreground="#64748B"
+                       Margin="0,10,0,25"/>
+
+            <CheckBox Content="Valami checkbox" Margin="0,0,0,32" />
+
+            <Button Content="Vissza"
+                    Height="45"
+                    Click="Back_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Page>

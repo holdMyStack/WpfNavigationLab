@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfNavigationLab.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Külön ablak"
+        Height="230"
+        Width="450"
+        WindowStartupLocation="CenterOwner"
+        Background="#F8FAFC">
+
+    <Grid Margin="30">
+
+        <StackPanel>
+
+            <TextBlock Text="Súgó Window"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="#1E293B"
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Text="Ez a súgó ablak."
+                       Margin="0,10,0,25"
+                       Foreground="#64748B"
+                       HorizontalAlignment="Center"/>
+
+            <Button Content="Ablak bezárása"
+                    Height="45"
+                    Click="Close_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
